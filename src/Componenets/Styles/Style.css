@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.Appcontainer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.header h1{
+    color: white;
+}
+.noteadd{
+    width: 300px;
+    height: 150px;
+    border: 2px solid ;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px grey;
+}
+.noteadd input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    width: 290px;
+    height: 40px;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.noteadd textarea{
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    width: 290px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.noteadd button{
+    outline: none;
+    border:  none;
+    border: 1.5px solid rgb(189, 187, 187);
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 5px rgb(167, 165, 165);
+    margin-left: 230px;
+    margin-top: 3px;
+}
+.noteadd button:hover{
+    background-color: rgb(29, 205, 29)
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.note{
+    height: 180px;
+    width: 240px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 12px #a5a4a4;
+    position: relative;
+}
+.note p{
+    padding-top: 10px;
+}
+.note button{
+    outline: none;
+    border: none;
+    color: red;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 8px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #161616;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid;
+    position: fixed;
+    z-index: 99;
+}
